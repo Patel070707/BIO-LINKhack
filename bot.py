@@ -3,14 +3,14 @@ from telebot import types
 import time
 import datetime
 
-API_TOKEN = '8084717420:7113971264:AAG0sB7DR-S-S13qNrm6IaCfzx9J9XpjC7s'
+API_TOKEN = '8084717420:7731587399:AAFMpZ0HMJWuuwa5QtyqH-ZLLV3A8GczFtk'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Set your logger group chat_id here
-LOGGER_GROUP_CHAT_ID = '-1002046320443'
+LOGGER_GROUP_CHAT_ID = '-1002309133745'
 
 # Set the bot owner's user ID (replace with your actual user ID)
-OWNER_USER_ID = '7520092354'
+OWNER_USER_ID = '6726372149'
 
 # Store user bio warnings and interactions
 user_bio_warnings = {}
@@ -30,8 +30,8 @@ def handle_start_command(message):
     # Attractive welcome message with buttons
     photo_url = 'https://graph.org/file/6c0db28a848ed4dacae56-93b1bc1873b2494eb2.jpg'  # Replace with actual image URL
     markup = types.InlineKeyboardMarkup()
-    markup.add(types.InlineKeyboardButton("Owner", url="https://t.me/TSGCODER"))
-    markup.add(types.InlineKeyboardButton("Support", url="https://t.me/matalbi_duniya"))
+    markup.add(types.InlineKeyboardButton("Owner", url="https://t.me/ll_RADHE7_ll"))
+    markup.add(types.InlineKeyboardButton("Support", url="https://t.me/ll_BOTCHAMBER_ll"))
     markup.add(types.InlineKeyboardButton("Start Exploring", callback_data="explore"))
 
     welcome_message = """
@@ -41,7 +41,7 @@ def handle_start_command(message):
 
     🌟 Here's what I can do for you:
     - [Add me to your group for bio link warning detection]
-    - [This bot is completely safe, created by TEAM SANKI]
+    - [This bot is completely safe, created by Team Botchamber]
 
     Tap on the buttons below to get started:
 
